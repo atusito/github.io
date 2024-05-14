@@ -1,0 +1,904 @@
+<!--- WORLD CODE -- TABBED SETTING =-->
+<!--==============================================================================
+
+Feel free to edit this however you like, however, do not remove the credit! If you
+have any issues you can DM me on TH or leave a comment in my thread. 
+
+The Default info from the preview was left in the code in hopes that it would make it less confusing as to what info goes where and that it would display properly.
+
+Thank you for downloading.
+
+
+| NOTES |
+
+This layout *should* be viewable on mobile, but due to the tabs and some of the alternating positions it may be a bit confusing to navigate.
+
+
+| ALTERING AND ADDING SECTIONS |
+
+You're free to alter what each section is - such as replacing the timeline section with a trivia section, etc.
+
+You can add and subtruct sections if you'd like, but don't forget to edit the navigation as well.
+
+
+| EDITING THE COLORS: |
+
+You can edit the main colors by swapping the HTML out with a find and replace.
+
+=================
+BG Color: #fff
+Shaded / Box Color: #f7f7f7;
+Text Color: #444;
+Header Color: #333;
+Accent Color: #c7984c; (italics, links, etc.)
+Tag/Nav color: #222;
+================
+
+
+
+===============================================================================-->
+
+	<div class="container px-md-3 px-0" style="color:#444;">
+		<div class="card border-0 pb-0 px-md-3 mx-0 px-2" style="background-color:#fff; box-shadow: 4px 4px 7px 4px rgba(0,0,0,0.2); overflow:hidden;">
+			<div class="row no-gutters p-0 m-0 pb-3">
+				<div class="col-md-12 pt-3">
+					
+					<!-- BACKGROUND IMAGE BELOW - Feel free to change the height in pixels if you want a large BG image -->
+
+					<div class="card border-0 py-2" style=
+					"min-height:200px; background-image:url('https://media.discordapp.net/attachments/972539351483420672/973328585450459177/hexside.png?width=998&height=559'); background-size:cover; background-position:center 55%; background-blend-mode:normal; background-color:#666; color:#fff;">
+						
+						<!-- TITLE -->
+
+						<div class="my-auto">
+							<h1 class="text-center text-wrap text-break" style=
+							"font-size:5em; letter-spacing:3px; font-variant:small-caps; font-family: 'Oswald', sans-serif; font-weight:400; line-height:.75em; text-shadow:1px 3px 40px #000;"><i class=
+							"fal fa-tree fa-sm"></i> 𝐓𝐇𝐄 𝐎𝐖𝐋 𝐇𝐎𝐔𝐒𝐄 𝐖𝐈𝐓𝐂𝐇❜𝐒 𝐀𝐏𝐏𝐑𝐄𝐍𝐓𝐈𝐂𝐄</h1>
+						</div>
+					</div>
+
+					<!-- NAVIGATION LINKS -->
+					
+					<ul class="row mx-n1 mt-2 mb-2 nav nav-pills nav-fill text-center text-uppercase" style="letter-spacing:1.5px; font-weight: 400; font-family:'montserrat', sans-serif;">
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#one" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-info-circle fa-fw"></i> Información</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#two" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-users fa-fw"></i> NPCs</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#three" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-map fa-fw"></i> Mapa</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#four" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-books fa-fw"></i> Historia</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#five" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-list fa-fw"></i> Misiones</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#six" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-pen-nib fa-fw"></i> Ambientación</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#seven" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-user fa-fw"></i> Creación de personaje</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#eight" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-swords fa-fw"></i> Sistema de Combates</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#nine" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-calendar fa-fw"></i> Timeline</a>
+						</li>
+
+
+						<li class="nav-item mb-2 mx-1">
+							<a class="nav-link btn col btn-default border-0 py-2" data-toggle="tab" href="#ten" style="color:#fff; background-color:#222; font-weight:500; font-size: 17px;"><i class=
+							"fas fa-circle-question fa-fw"></i> Reglas & F.A.Q</a>
+						</li>
+					</ul>
+				</div>
+				
+				
+				<!-- FIRST COLUMN - START OF TAB CONTENT -->
+
+				<div class="col-md-9 flex-column pr-md-3 h-100">
+					
+					<!-- START OF TABS - To change the tab height change the pixel height below (remember the change the sidebar height as well! -->
+
+					<div class="tab-content px-1" style="height:720px; overflow-y:auto; overflow-x: hidden; scrollbar-width: none;">
+						
+						<!-- START OF TAB ONE -->
+						
+						<div class="tab-pane fade show active" id="one">
+						
+							<!-- ABOUT  HEADER - You can change the icon using Font Awesome icons e.g. change "mountain" to "star" etc. - linked at top of the code -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-trees mt-4 pr-2"></i> About
+							toh-wa</h1>
+							
+							<!-- ABOUT BLURB - Write an overview (or whatever you'd like) here -->
+
+							<div class="rounded text-justify px-4 py-3" style="letter-spacing:1.5px; background-color:#f7f7f7;">
+								
+								<p>¡Bienvenido a <b>TOHWA</b> o mejor dicho, <i style="color:#c7984c; font-weight:600;">The Owl House Witch's Apprentice</i>. Un rol basado en el universo de la serie televisiva de Disney, <i>The Owl House</i>, pero con su propia historia divergente de la trama original, todo con personas originales y un plot totalmente nuevo. 
+								</p>
+
+
+								<p>Este grupo, puede llegar a tratar temas <u>sensibles y escenas no aptas para todo el público</u> por lo que se requerirá que los integrantes tengan <b>18 años o más</b>.</p>
+								
+								<p>
+								El grupo está ambientado <i style="color:#c7984c; font-weight:600;">20 años desde el reinado de Belos como emperador</i>, cesando con su misteriosa desaparición. Han habido muchos emperadores seguidos por muy poco tiempo y ahora ese puesto está vacío mientras se preparan las elecciones nuevamente. Desde entonces, la sociedad de brujos y demonios está pasando por una remodelación del sistemas de aquelarres, volviendo a los <b>orígenes de la magia salvaje</b> lentamente con la apertura de un décimo Coven principal, <i style="color:#c7984c; font-weight:600;"> la magia de Glifos.</i>
+
+								</p>
+								
+								<hr>
+
+								<!-- AESTHETIC IMAGES BELOW - REPLACE URLS -->
+								
+								<div class="row mx-n2 px-0 py-0 no-gutters" style="">
+									<div class="col-sm-3 text-center px-2 mb-2 mb-md-0"><img alt="Iwm6EjI.png" class="rounded" src="https://i.imgur.com/pjSppYm.png" style="width:300px;">
+									</div>
+
+
+									<div class="col-sm-3 text-center px-2 mb-2 mb-md-0"><img alt="WxFjG2M.png" class="rounded" src="https://i.imgur.com/I39htTt.jpg" style="width:300px;">
+									</div>
+
+
+									<div class="col-sm-3 text-center px-2 mb-2 mb-md-0"><img alt="tgszzvD.png" class="rounded" src="https://pm1.narvii.com/7639/6576fdbd9c820504e5a080fbcbdce5156853180br1-300-300v2_00.jpg" style="width:300px;">
+									</div>
+
+
+									<div class="col-sm-3 text-center px-2 mb-2 mb-md-0"><img alt="IoI7diQ.png" class="rounded" src="https://i.imgur.com/O73lkhy.png" style="width:300px;">
+									</div>
+								</div>
+
+								<hr>
+
+								<p>Además, más humanos están llegando misteriosamente a las islas, mientras que brujas y demonios desaparecen misteriosamente o se les encuentra sin la capacidad de hacer magia y muchas otras eligen caminos poco éticos debido a la falta de gestión del <b>aquelarre del emperador</b>, no pudiendo mantener todos los crímenes a la orden del día sin alguien que les organice y/o lidere.</p>
+								
+								<p>Mientras todo esto ocurre, <b style="color:#c7984c; font-weight:600;">tú</b>, un futuro <b>alumno de Hexside</b> te preparas para llegar y encarar tu prueba de acceso en la prestigiosa escuela de magia.... <i>¿Qué te depara en este mundo de magia y misterio?</p></i>
+								
+								<p><b style="color:#c7984c; font-weight:600;">¿Serás el héroe.... o el villano que necesita esta historia?</p></b>
+
+								<!-- BUTTON LINKS FOR ADDITIONAL NAVIGATION -->
+
+								<ul class="nav nav-pills row no-gutters text-center mt-4" style="letter-spacing:1.5px; font-family:'Montserrat'; font-weight:400;color:#fff;">
+									<li class="nav-item col my-1 mx-1">
+										<a class="nav-link btn border-0" href="-" style=
+										"color:inherit;font-size:17px;background-color:#222; padding:10px 8px;"><i class="fas fa-folder"></i> Link</a>
+									</li>
+
+
+									<li class="nav-item col my-1 mx-1">
+										<a class="nav-link btn border-0" href="-" style=
+										"color:inherit;font-size:17px;background-color:#222; padding:10px 8px;"><i class="fas fa-folder"></i> Link</a>
+									</li>
+
+
+									<li class="nav-item col my-1 mx-1">
+										<a class="nav-link btn border-0" href="-" style="color:inherit;font-size:17px;background-color:#222; padding:10px 8px;"><i class="fas fa-folder"></i> Link</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- START OF SECOND TAB -->
+						
+						<div class="tab-pane fade" id="two">
+														
+							<!-- CAST HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-users mt-4 pr-2"></i> NPCs
+							</h1>
+							
+							<!-- START OF CAST LIST -->
+
+							<div class="mt-1 mx-n2 px-0">
+								
+								<!-- CHARACTER ONE -->
+
+								<div class="row mb-3 mx-0 px-0 py-0 no-gutters">
+									
+									<!-- FIRST COLUMN - with Blurb -->
+
+									<div class="col-md-9">
+										<div class="flex-column h-100 rounded text-justify px-4 py-2 mx-2 mb-2" style="letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+											
+											<!-- CHARACTER KEYWORDS -->
+
+											<div class="text-center mx-1 pb-2 pt-1" style="font-family: courier; font-size:18px; letter-spacing:2px;">
+												<span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class=
+												"px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span>
+											</div>
+										
+											<!-- CHARACTER BLURB -->
+
+											<p>???</p>
+										</div>
+									</div>
+									
+									<!-- CHARACTER IMAGE AND LINK -->
+
+
+									<div class="col-sm-3 text-center pr-md-2 h-100">
+										<a href=""><img class="rounded w-100" src="https://i.imgur.com/SDma5w0.png"></a>
+									</div>
+								</div>
+								
+								<!-- CHARACTER TWO -->
+
+
+								<div class="row mb-3 mx-0 px-0 py-0 no-gutters">
+									
+									<!-- CHARACTER IMAGE AND LINK -->
+
+									<div class="col-sm-3 text-center pl-md-2">
+										<a href="#"><img class="rounded w-100" src="https://i.imgur.com/SDma5w0.png"></a>
+									</div>
+									
+									<!-- SECOND COLUMN with Blurb -->
+
+									<div class="col-md-9">
+										<div class="flex-column h-100 rounded text-justify px-4 py-2 mx-2 mb-2" style="letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+											
+											<!-- CHARACTER KEYWORDS -->
+
+											<div class="text-center mx-1 pb-2 pt-1" style="font-family: courier; font-size:18px; letter-spacing:2px;">
+												<span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class=
+												"px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span>
+											</div>
+											
+											<!-- CHARACTER BLURB -->
+
+											<p>???
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<!-- CHARACTER THREE -->
+
+								<div class="row mb-3 mx-0 px-0 py-0 no-gutters">
+									
+									<!-- FIRST COLUMN - with Blurb -->
+
+									<div class="col-md-9">
+										<div class="flex-column h-100 rounded text-justify px-4 py-2 mx-2 mb-2" style="letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+										
+											<!-- CHARACTER KEYWORDS -->
+
+											<div class="text-center mx-1 pb-2 pt-1" style="font-family: courier; font-size:18px; letter-spacing:2px;">
+												<span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class=
+												"px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span>
+											</div>
+											
+											<!-- CHARACTER BLURB -->
+
+											<p>???</p>
+										</div>
+									</div>
+									
+									<!-- CHARACTER IMAGE AND LINK -->
+
+									<div class="col-sm-3 text-center pr-md-2">
+										<a href="#"><img class="rounded" src="https://i.imgur.com/SDma5w0.png"></a>
+									</div>
+								</div>
+								
+								<!-- CHARACTER FOUR  -->
+
+								<div class="row mb-3 mx-0 px-0 py-0 no-gutters">
+									
+									<!-- CHARACTER IMAGE AND LINK -->
+
+									<div class="col-sm-3 text-center pl-md-2">
+										<a href="#"><img class="rounded" src="https://i.imgur.com/SDma5w0.png" style="width:300px"></a>
+									</div>
+								
+									<!-- SECOND COLUMN with Blurb -->
+
+									<div class="col-md-9">
+										<div class="flex-column h-100 rounded text-justify px-4 py-2 mx-2 mb-2" style="letter-spacing:1.5px; background-color:#f7f7f7;">
+										
+											<!-- CHARACTER KEYWORDS -->
+
+											<div class="text-center mx-1 pb-2 pt-1" style="font-family: courier; font-size:18px; letter-spacing:2px;">
+												<span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span>
+												<span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span> <span class="px-2 py-1 badge" style="background-color:#222; color:#fff;">???</span>
+											</div>
+										
+											<!-- CHARACTER BLURB -->
+
+											<p>???</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- START OF THIRD TAB -->
+						
+						<div class="tab-pane fade" id="three">
+						
+							<!-- SETTING HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-map mt-4 pr-2"></i> Mapa</h1>
+						
+							<!-- SETTING INFO -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Islas Hirvientes</h1></div>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/972539351483420672/973352488134672464/map.png?width=833&height=676">
+                            
+					    	</div>
+<br>
+            <div class="col-sm-12 my-2 p-0 accordion" id="map">
+                
+            <!------------- Hexside ------------------>
+            <h1 class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;"><a class="mt-0" data-target="#cal1" data-toggle="collapse" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"> 
+            <i class="fal fa-graduation-cap"></i> 
+            Hexside
+            <i class="fal fa-chevron-down"></i> 
+            
+            </a></h1>
+            
+            <div class="collapse" data-parent="#map" id="cal1">
+                <div class="card-block p-2 mb-3">
+                    <!------------- contenido:Hexside ------------------>
+                    <div class="rounded text-justify px-4 py-3" style="letter-spacing:1.5px; background-color:#f7f7f7;">
+                    <p>Hexside, <b>Escuela de Magia y Demonios</b>. Es una de las escuelas locales de las Islas Hirvientes para ya sean <b>brujas, demonios y ahora humanos.</b> La escuela está ubicada en el lado oeste del torso del titán, rodeado por los bosques ya característicos de las islas.</p>
+                    <p>El <b>uniforme escolar estándar</b> está compuesto por una túnica y cinturón grises, capucha y botas de colores ligeramente más oscuros que los ya mencionados. La coloración de las ropas en las extremidades; ya puedan ser las mangas, calzado, guantes, etc. <i style="color:#c7984c; font-weight:600;">Varía según las magias que el alumnado haya elegido</i>.</p>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/981204039540830269/983501695638204476/unknown.png">
+                            
+					    	</div>
+<br>
+                    <p>Tiempo atrás únicamente se podía elegir <i>un tipo de magia</i> como estudio, pero tras el cambio de dirección y administración, los alumnos <b>pueden elegir variedad de magia, incluyendo incluso aquellas que no pertenecen a las 10 escuelas principales</b>.</p>
+                    
+                    <p><i style="color:#c7984c; font-weight:600;">Sin embargo, eso no va a impedir que puedan tener ciertos prejuicios sobre ello.</i></p>
+                    
+                    <p>Hexside enseña a sus alumnos desde edades tempranas hasta la adolescencia y, como tal, incluye una sección de jardín de infantes de la escuela para brujas más jóvenes, Dividiendo las secciones de los alumnos <b>entre 5 y 10 años, 10 y 15 años, y por último, 15 y 22 años</b>.</p>
+                    <p>Al ser una escuela de magia , aquí en Hexside <i style="color:#c7984c; font-weight:600;">se enseñan múltiples materias en numerosos grados</i>. Aquellos que recién comienzan se les <b>enseñaran los elementos básicos, como aprender a leer y escribir runas, mientras que los que están en cursos superiores aprenderán temas más complejos</b>, así como el <i style="color:#c7984c; font-weight:600;">"sistema heximal"</i> o ahora, con la renovación, el como crear sus propios hechizos de escuelas de magias nunca vistas.</p>
+                    <p>Los profesores, siguen perteneciendo a los 10 coven principales, sin embargo, <b>no se les obliga a los alumnos a estudiar dichas magias como se solía hacer</b>. El trabajo de los profesores en Hexside hoy en día se trata de <i style="color:#c7984c; font-weight:600;">ayudar a los jóvenes magos a descubrir sus potenciales</i> y llegar a alcanzar la mejor versión de ellos mismos, sin obligarlos a limitar sus capacidades mágicas a uno de los coven principales y pudiendo explorarlas con libertad.</p>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/784074802969051207/981231967720861807/unknown.png">
+                            
+					    	</div>
+<br>
+                    <h5><i class="fas fa-bookmark mr-2"></i>Aulas</h5>
+                    <p>La escuela de Hexside, cuenta con diversas aulas donde ejercer sus diferentes clases, tanto <b>prácticas como teóricas, e intentar sacar la máxima capacidad de cada uno de sus alumnos</b>. dependiendo del profesorado y la enseñanza, cada experiencia puede variar completamente la una de la otra.</p>
+                    <p>Algunos maestros prefieren centrarse en la <b>parte teórica de la magia</b>, enseñando el funcionamiento de la misma o marcando tareas para esforzar a los alumnos a pensar el cómo solventarlas, mientras que otros prefieren un acercamiento <b>más práctico</b>, retando con diversas pruebas a los jóvenes, ya sea ligeras competencias en las que los adolescentes se enfrentan entre ellos o junto al profesor para medir sus capacidades de adaptación.</p>
+                    <p>En resumen, desde el momento en el que entras a una de las aulas para dar clases, <i style="color:#c7984c; font-weight:600;">puede ocurrir cualquier cosa y cambiar totalmente a una diferente a la siguiente hora.</i></p>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/784074802969051207/981245171725402152/unknown.png">
+                            
+					    	</div>
+<br>
+                    <hr>
+                    
+                    <h5><i class="fas fa-bookmark mr-2"></i>Hub</h5>
+                    <p>Se trata de el espacio central de la escuela, con un <b>tragaluz con el logo de la escuela colocado en el punto central del techo.</b></p>
+                    <p>Principalmente, es donde los alumnos se relajan ligeramente entre los cambios de clase, o mejor dicho, donde se encuentran los unos con los otros en el momento en el que deben subir o bajar un piso para ir a sus respectivas aulas.</p>
+                    <p>Cuenta con un <i style="color:#c7984c; font-weight:600;">tablón de anuncios</i> en el piso central donde la escuela va colocando diversos boletines informativos o noticias de eventos próximos tales como competiciones deportivas o festividades próximas además de las escaleras y rampas para desplazar entre cada uno de los pisos.</p>
+<br>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/784074802969051207/981246304682381322/unknown.png">
+                            
+					    	</div>
+<br>
+
+                    <!------------- contenido:Hexside ------------------>
+                </div>
+             </div>
+            </div>
+            </div>
+            <div class="col-sm-12 my-2 p-0 accordion" id="mapa">
+            <!------------- Dormitorios ------------------>
+            <h1 class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;"><a class="mt-0" data-target="#cal2" data-toggle="collapse" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"> 
+            <i class="fal fa-bed-bunk"></i> 
+            Dormitorios
+            <i class="fal fa-chevron-down"></i> 
+            
+            </a></h1>
+            
+            <div class="collapse" data-parent="#mapa" id="cal2">
+                <div class="card-block p-2 mb-3">
+                    <!------------- contenido: Dormitorios ------------------>
+                    <div class="rounded text-justify px-4 py-3" style="letter-spacing:1.5px; background-color:#f7f7f7;">
+                    <p>En este curso escolar, debido a la… <b>inseguridad del mundo exterior</b>, los alumnos ingresados estarán conviviendo en los <i style="color:#c7984c; font-weight:600;">dormitorios de la escuela</i>, un edificio alojado a la izquierda de la construcción principal y que su ingreso es exclusivo para alumnos y trabajadores del centro escolar.</p>
+                    <p>El edificio de dormitorios cuenta con <b>baños comunes separados</b> entre chicos y chicas, una <b>sala común</b> con diferentes libros y sillones donde descansar, una <b>biblioteca/sala de estudios</b> donde poder trabajar sin problemas, y una pequeña <b>cocina con comedor</b> incluido para el desayuno y cena o incluso almuerzo si la comida de la cafetería no es de su agrado.</p>
+                    <p>Lla parte principal de los dormitorios, se tratan de <b>habitaciones mixtas</b> donde los alumnos deberán aprender a convivir con su <i style="color:#c7984c; font-weight:600;">compañero de cuarto</i>, el cual será completamente <b>elegido al azar</b>. Cada uno de los cuartos cuenta con un armario empotrado separado en dos, una litera, dos mesas de noche, estantería, dos sillas, y un escritorio lo suficientemente amplio para que se pueda estudiar o trabajar sin problema.</p>
+                    <p>Si por alguna razón el alumno no se encuentra dentro de la residencia a las <b>00:00</b> el centro escolar tiene la libertad para <i style="color:#c7984c; font-weight:600;">tomar medidas en el asunto como crea conveniente</i>.</p>
+<br>
+                            <div>
+                                
+                                <img src="https://media.discordapp.net/attachments/784074802969051207/981258552402382908/unknown.png">
+                            
+					    	</div>
+<br>
+                    <!------------- contenido: Dormitorios ------------------>
+            </div>
+			</div>
+             </div>
+		            	</div>
+		            	</div>
+						<!-- START OF FOURTH TAB -->
+
+						<div class="tab-pane fade" id="four">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-books mt-4 pr-2"></i> Historia</h1>
+							
+							<!-- STORY BLURBS -->
+                            <a href="a" style="color:#000;">
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Chapter</h1></a>
+
+							</div>
+
+                            <a href="a" style="color:#000;">
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Chapter</h1></a>
+
+							</div>
+
+                            <a href="a" style="color:#000;">
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Chapter</h1></a>
+
+							</div>
+						</div>
+
+						<!-- START OF FIFTH TAB -->
+
+						<div class="tab-pane fade" id="five">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-books mt-4 pr-2"></i> Misiones</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+						</div>
+
+						<!-- START OF SIX TAB -->
+
+						<div class="tab-pane fade" id="six">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-pen-nib mt-4 pr-2"></i> Ambientación</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+						</div>
+
+						<!-- START OF SEVEN TAB -->
+
+						<div class="tab-pane fade" id="seven">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-user mt-4 pr-2"></i> Creación de Personaje</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Razas</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+						</div>
+
+						<!-- START OF EIGHT TAB -->
+
+						<div class="tab-pane fade" id="eight">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-swords mt-4 pr-2"></i> Sistema de Combates</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+						</div>
+
+						<!-- START OF NINE TAB -->	
+
+						<div class="tab-pane fade" id="nine">
+							
+							<!-- TIMELINE HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-calendar mt-4 pr-2"></i> Cronología</h1>
+						
+							<!-- TIMELINE -->
+
+							<div class="mt-2 mx-n1" style="">
+								<div class="mx-0 row no-gutters text-justify pr-1 mt-3" style="letter-spacing:1.5px;">
+									<div class="col-md-9 rounded-left px-4 py-2" style="background-color:#f7f7f7; border-radius:5px 0px 0px 5px;">
+										<div class="h-100">
+											<b>The Event</b> occurs due to an <i style="color:#c7984c; font-weight:600;">unknown supernatural cause</i>. Everyone goes through a life-altering experience with no clear memory of
+											<i style="color:#c7984c; font-weight:600;">The Event</i>. Some kids went missing, but were later found.
+										</div>
+									</div>
+
+
+									<div class="col-md-3 pl-md-2">
+										<div class="card h-100 py-2 border-0" style="background-color:#222; border-radius:0px 5px 5px 0px;">
+											<h1 class="my-auto display-2 text-center" style="letter-spacing:3px; font-variant:small-caps; color:#fff; font-family: 'Oswald', sans-serif;">1997</h1>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="mx-0 row no-gutters text-justify mt-4" style="letter-spacing:1.5px;">
+									<div class="col-md-3 pr-md-2">
+										<div class="card h-100 border-0 py-2" style="background-color: #222; border-radius:5px 0px 0px 5px;">
+											<h1 class="my-auto display-2 text-center" style="letter-spacing:3px; font-variant:small-caps; color:#fff; font-family: 'Oswald', sans-serif;">1999</h1>
+										</div>
+									</div>
+
+
+									<div class="col-md-9 rounded-right px-4 py-2" style="background-color:#f7f7f7; border-radius:0px 5px 5px 0px;">
+										<div class="h-100">
+											[Late 1999] Strange people assumed to be working for the government appear in the town years after the initial investigation of The Event. The local rumor mill is trying to tie it to some
+											Y2K conspiracy panic.
+										</div>
+									</div>
+								</div>
+
+
+								<div class="mx-0 row no-gutters text-justify pr-1 mt-3" style="letter-spacing:1.5px;">
+									<div class="col-md-9 rounded-left px-4 py-2" style="background-color:#f7f7f7; border-radius:5px 0px 0px 5px;">
+										<div class="h-100">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet rhoncus egestas. Morbi malesuada gravida dictum.
+										</div>
+									</div>
+
+
+									<div class="col-md-3 pl-md-2">
+										<div class="card h-100 py-2 border-0" style="background-color:#222; border-radius:0px 5px 5px 0px;">
+											<h1 class="my-auto display-2 text-center" style="letter-spacing:3px; font-variant:small-caps; color:#fff; font-family: 'Oswald', sans-serif;">2005</h1>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="mx-0 row no-gutters text-justify mt-4" style="letter-spacing:1.5px;">
+									<div class="col-md-3 pr-md-2">
+										<div class="card h-100 border-0 py-2" style="background-color: #222; border-radius:5px 0px 0px 5px;">
+											<h1 class="my-auto display-2 text-center" style="letter-spacing:3px; font-variant:small-caps; color:#fff; font-family: 'Oswald', sans-serif;">2008</h1>
+										</div>
+									</div>
+
+
+									<div class="col-md-9 rounded-right px-4 py-2" style="background-color:#f7f7f7; border-radius:0px 5px 5px 0px;">
+										<div class="h-100">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet rhoncus egestas. Morbi malesuada gravida dictum.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- START OF EIGHT TAB -->
+
+						<div class="tab-pane fade" id="ten">
+						
+							<!-- Story HEADER  -->
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-scale-balanced mt-4 pr-2"></i> REGLAS</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+							</div>
+
+
+							<h1 class="display-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-circle-question mt-4 pr-2"></i> F.A.Q</h1>
+							
+							<!-- STORY BLURBS -->
+
+							<div class="rounded text-justify px-4 py-3 mb-2" style="flex:; letter-spacing:1.5px; background-color:#f7f7f7; line-height:;">
+								<h1 class="mt-0" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="fal fa-bookmark"></i> Subheader</h1>
+
+
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc laoreet ullamcorper metus, at vulputate diam vestibulum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+								Aliquam augue est, venenatis non pulvinar vel, posuere eu sem. Aliquam sit amet mi massa. In ullamcorper, est luctus suscipit maximus, ante dolor pretium est, quis maximus libero sapien
+								scelerisque turpis. Nullam vehicula condimentum elementum. Etiam maximus, justo sed finibus porta, diam risus hendrerit nulla, id pretium ex nibh ut elit. Nam volutpat efficitur sem, sed
+								condimentum velit.</p>
+
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+				
+				<!-- Por acá todos los otros tabs que hay que poner :old: -->
+				
+						<div class="tab-pan fade show active" id="six">
+			</div>	
+				<!-- START OF SECOND MAIN COLUMN / SIDEBAR - You can change the height to match the tabs below -->
+
+
+				<div class="col-md-3 flex-column pr-1">
+
+					<!-- OVERVIEW INFO -->
+					
+					<h1 class="display-4 mt-2" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-info-circle mt-3"></i>
+					Info</h1>
+
+
+					<div class="row text-left no-gutters justify-content-between" style="font-size: 1.15em; letter-spacing:.5px; font-variant:small-caps; line-height:35px;">
+						<div class="col-sm-12 rounded px-2" style="background-color:#f7f7f7;">
+							<span style="font-weight:600; color:#c7984c;"><i class="fad fa-stars fa-fw" style="color:#222;"></i> Theme</span> <span class="pull-right">The Owl House</span>
+						</div>
+
+
+						<div class="col-sm-12 rounded px-2">
+							<span style="font-weight:600; color:#c7984c;"><i class="fad fa-calendar-alt fa-fw" style="color:#222;"></i> Status</span> <span class="pull-right"><i class="fa-solid fa-cog fa-spin"></i></span>
+						</div>
+
+
+						<div class="col-sm-12 rounded px-2" style="background-color:#f7f7f7;">
+							<span style="font-weight:600; color:#c7984c;"><i class="fad fa-globe fa-fw" style="color:#222;"></i> Location</span> <span class="pull-right">Islas Hirvientes</span>
+						</div>
+
+
+						<div class="col-sm-12 rounded px-2">
+							<span style="font-weight:600; color:#c7984c;"><i class="fa-brands fa-discord fa-fw" style="color:#222;"></i> rp platform</span> <span class="pull-right">Discord<pan>
+						</div>
+
+
+						<div class="col-sm-12 rounded px-2" style="background-color:#f7f7f7;">
+							<span style="font-weight:600; color:#c7984c;"><i class="fad fa-exclamation-triangle fa-fw" style="color:#222;"></i> Rating</span> <span class="pull-right">+18</span>
+						</div>
+
+
+						<div class="col-sm-12 rounded px-2">
+							<span style="font-weight:600; color:#c7984c;"><i class="fad fa-users fa-fw" style="color:#222;"></i> Entry</span> <span class="pull-right"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+						</div>
+
+					</div>
+
+					<!-- CONTENT GUIDE / WARNINGS -->
+					
+					<h1 class="display-4 mt-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class=
+					"pull-right fa-xs fad fa-sparkles mt-3"></i> Content</h1>
+
+
+					<div class="row justify-content-between" style="font-size:1.15em; font-variant: small-caps; letter-spacing:.5px; line-height:1.6em;">
+						<div class="col-12 mb-1">
+							<i class="fas fa-graduation-cap fa-fw pr-1"></i> <span style=" font-weight:600; color:#c7984c;">Escolares</span> <span class="pull-right"><i class="fas fa-star"></i> <i class="fas fa-star"></i>
+							<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fal fa-star"></i></span>
+						</div>
+
+
+						<div class="col-12 mb-1">
+							<i class="fas fa-sword fa-fw pr-1"></i> <span style="font-weight:600; color:#c7984c;">Acción</span> <span class="pull-right"><i class="fas fa-star"></i> <i class="fas fa-star"></i>
+							<i class="fas fa-star"></i> <i class="fal fa-star"></i> <i class="fal fa-star"></i></span>
+						</div>
+
+						<div class="col-12 mb-1">
+							<i class="fas fa-wand-sparkles fa-fw"></i> <span style=" font-weight:600; color:#c7984c;">Fantasía</span> <span class="pull-right"><i class="fas fa-star"></i> <i class="fas fa-star"></i>
+							<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+						</div>
+
+						<div class="col-12 mb-1">
+							<i class="fas fa-book-open-cover fa-fw pr-1"></i> <span style="font-weight:600; color:#c7984c;">Trama</span> <span class="pull-right"><i class="fas fa-star"></i> <i class="fas fa-star"></i>
+							<i class="fas fa-star"></i> <i class="fal fa-star"></i> <i class="fal fa-star"></i></span>
+						</div>
+
+						<div class="col-12 mb-1">
+							<i class="fas fa-moon fa-fw pr-1"></i> <span style="font-weight:600; color:#c7984c;">Dark Themes</span> <span class="pull-right"><i class="fas fa-star"></i> <i class="fas fa-star"></i>
+							<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fal fa-star"></i></span>
+						</div>
+					</div>
+
+					<!-- PLAYLIST LINK -->	
+
+					<h1 class="display-4 mt-3" style="letter-spacing:1.5px; font-variant:small-caps; color:#333; font-family: 'Montserrat', sans-serif;"><i class="pull-right fa-xs fad fa-link-simple mt-4"></i>
+					Links</h1>
+
+
+					<a href="https://www.deviantart.com/toh-wa" style="text-decoration:none; color:#fff;">
+					<div class="card py-2 px-3 border-0" style=
+					"background: linear-gradient(90deg, #00e59b 0%, rgba(34,34,34,1) 100%); background-color:#222; color:#fff; font-variant:small-caps; letter-spacing:2px; line-height:20px;">
+						<div class="row">
+							<div class="col-3 my-auto">
+								<i class="fab fa-deviantart fa-beat-fade" style="--fa-beat-fade-opacity: 1.00; --fa-beat-fade-scale: 1.03;font-size:3em; color:#fff;"></i>
+							</div>
+
+
+							<div class="col-9 text-center my-auto">
+								<span class="" style="font-size:1.3em; font-weight:600;">DeviantArt</span>
+							</div>
+						</div>
+					</div></a><br>
+					<a href="https://open.spotify.com/playlist/2UwPkWv38lV1SMgnstbg2y?si=0bca27ec5be84f30" style="text-decoration:none; color:#fff;">
+					<div class="card py-2 px-3 border-0" style=
+					"background: linear-gradient(90deg, #c7984c 0%, rgba(34,34,34,1) 100%); background-color:#222; color:#fff; font-variant:small-caps; letter-spacing:2px; line-height:20px;">
+						<div class="row">
+							<div class="col-3 my-auto">
+								<i class="fab fa-spotify fa-beat-fade" style="--fa-beat-fade-opacity: 1.00; --fa-beat-fade-scale: 1.03;font-size:3em; color:#fff;"></i>
+							</div>
+
+
+							<div class="col-9 text-center my-auto">
+								<span class="" style="font-size:1.3em; font-weight:600;">Spotify Playlist</span>
+							</div>
+						</div>
+					</div></a>
+				</div>
+			</div>
+			
+			<!-- FOOTER with credit lines - you can remove the entire div if you don't want the footer / project credits-->
+
+
+			<div class="mx-n3 text-center py-2 mb-n1" style="background-color:#222; color:#fff;">
+				<h1 class="display-1 mt-1" style="font-size:1.1em; font-weight:200; font-family: 'Montserrat', sans-serif;"><i class=" fal fa-trees" style="color:#c7984c;"></i> <b>The Owl House Witch's Apprentrice</b>, proyecto de Roleplay
+				<i class="fal fa-copyright fa-sm px-1"></i> <a href="https://toyhou.se/atusito" style="color:#c7984c;">atusito</a>, <a href="https://toyhou.se/stickersr" style="color:#c7984c;">Sticker</a> & <a href="https://toyhou.se/okamimiru" style="color:#c7984c;">Okamimiru</a></h1> 
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container text-right mb-5 mt-1" style="font-size:16px; font-family:courier new;">
+		<a href="https://toyhou.se/~forums/16.htmlcss-graphics/105818" style="color:inherit; text-decoration:none;"><i class="fas fa-code fa-sm"></i> credit</a>
+	</div>

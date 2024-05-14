@@ -1,0 +1,49 @@
+/* --- IF YOU WANT TO CHANGE THE COLORS OR BG IMAGE, ADJUST THE ENTRIES BELOW --- */
+
+/* --- Font Import Here - can be replaced with a font of your choice --- */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* --- Body Background Color --- */
+$bg-color: #BCC9CA;
+
+/* --- Background Image - Leave blank if you don't want one --- */
+$bg-image: url('https://i.imgur.com/rviDfII.jpg');
+
+/* --- Background Fade - can fade out the BG color with a color overlay - set to a transparent black, use a transparent RGBA to set your own --- */
+$fade-overlay: rgba(0,0,0,0.2);
+
+/* --- Main background color of the Sidebar, leave blank to leave the default color --- */
+$sidebar-bg: #ffffff;
+
+/* --- Sidebar Font --- */
+$font: 'Montserrat', sans-serif;
+
+/* --- Sidebar Main Header Background --- */
+$header-bg: #222;
+
+/* --- Sidebar Subheader Background --- */
+$subheader-bg: #c7984c;
+
+/* --- Main Link Color --- */
+$link-color: #c7984c;
+
+/* --- Link Hover Color --- */
+$link-hover: #b18742;
+
+/* --- Primary Button BG Color --- */
+$btn-primary: #c7984c;
+
+/* --- Primary Button Link Color --- */
+$btn-link-color: #f7f7f7 !important;
+
+/* --- World Profile Header : Icon & Title Display - This is turned off on default! To turn it back on, just delete the entry --- */
+$no-world-profile-header: none !important;
+
+
+/* --- MAIN IMPORT LINK - any additional custom CSS should go below this link --- */
+@import '0/7513/r1VGQ8/basic-world-css-colors-bg';
+
+
+/* --- ADDITIONAL CUSTOM CSS CAN BE PLACED BELOW HERE --- */
