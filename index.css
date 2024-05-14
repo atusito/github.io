@@ -8,14 +8,14 @@
 /* --- Body Background Color --- */
 $bg-color: #BCC9CA;
 
-/* --- Background Image - Leave blank if you don't want one --- */
-$bg-image: url('https://i.imgur.com/rviDfII.jpg');
+/* --- Background Image - Leave blank if you don't want one  --- */
+$bg-image: url('https://images.unsplash.com/photo-1611166828445-0e7f0541aae8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
 
 /* --- Background Fade - can fade out the BG color with a color overlay - set to a transparent black, use a transparent RGBA to set your own --- */
-$fade-overlay: rgba(0,0,0,0.2);
+$fade-overlay: rgba(0,0,0,0.5);
 
 /* --- Main background color of the Sidebar, leave blank to leave the default color --- */
-$sidebar-bg: #ffffff;
+$sidebar-bg: #ECF1F1;
 
 /* --- Sidebar Font --- */
 $font: 'Montserrat', sans-serif;
@@ -23,26 +23,26 @@ $font: 'Montserrat', sans-serif;
 /* --- Sidebar Main Header Background --- */
 $header-bg: #222;
 
-/* --- Sidebar Subheader Background --- */
-$subheader-bg: #c7984c;
+/* --- Sidebar Subheader Background  --- */
+$subheader-bg: #658E90;
 
 /* --- Main Link Color --- */
-$link-color: #c7984c;
+$link-color: #658E90;
 
 /* --- Link Hover Color --- */
-$link-hover: #b18742;
+$link-hover: #435759;
 
 /* --- Primary Button BG Color --- */
-$btn-primary: #c7984c;
+$btn-primary: #658E90;
 
-/* --- Primary Button Link Color --- */
+/* --- Primary Button Link Color  --- */
 $btn-link-color: #f7f7f7 !important;
 
 /* --- World Profile Header : Icon & Title Display - This is turned off on default! To turn it back on, just delete the entry --- */
 $no-world-profile-header: none !important;
 
 
-/* --- MAIN IMPORT LINK - any additional custom CSS should go below this link --- */
+/* --- MAIN IMPORT LINK - any additional custom CSS should go below this link  --- */
 @import '0/7513/r1VGQ8/basic-world-css-colors-bg';
 
 
